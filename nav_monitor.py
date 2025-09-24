@@ -72,5 +72,6 @@ cols_order = ["SchemeCode", "SchemeName", "NAV", "NAVDate", "FirstNAV", "FirstSI
 df = df[cols_order]
 
 print(df)
+print("\n")
 # Optionally save to Excel
 # df.to_excel("mf_nav_decision_dynamic.xlsx", index=False)
